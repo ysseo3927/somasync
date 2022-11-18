@@ -5,17 +5,17 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.8</version>
+		<version>2.6.8</version>		<!-- S/B 프레임워크 버전 : 2.6.8 -->
 		<relativePath/>
 	</parent>
 	<groupId>com.elcric</groupId>
-	<artifactId>somasync</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<artifactId>somasync</artifactId>	<!-- 패키지명 [com.elcric.somasync] -->
+	<version>0.0.1-SNAPSHOT</version>	<!-- 빌드버전 -->
+	<packaging>war</packaging>			<!-- 패키징타입 -->
 	<name>somasync</name>
 	<description>somasync application</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>11</java.version>	<!-- 자바버전 : java11 -->
 	</properties>
 	<dependencies>
 		<dependency>
